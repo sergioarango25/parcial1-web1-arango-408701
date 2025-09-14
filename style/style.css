@@ -1,0 +1,86 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3b5998; 
+  color: white;
+  padding: 10px;
+}
+
+img{
+    width: 40%;
+    height: 40%;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+}
+
+
+
+
+
+
+button header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#foto1{
+    height: 300px;
+}
+
+#foto2{
+    height: 100px;
+    width: 100px;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  background: #4267B2;
+  width: 210px;
+  height: 300px;
+
+}
+#Perfil{
+
+    width: 100px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+button {
+  background: white; 
+  color: #4267B2;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main section {
+  display: none;
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+main section.active {
+  display: block;
+}
